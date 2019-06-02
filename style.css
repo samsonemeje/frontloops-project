@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(117, 19, 93, 0.73)), url("images/jared-erondu-1637728-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    text-align: center; 
+}
+
+h1 {
+    color: #5ab63d;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.ref a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ .ref a :hover {
+    background: #5ab63d;
+    transition: .4s ease-out;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.group {
+    background: #990033;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
+    width: 150px;
+    height: 50px;
+    margin: 12px 0;
+    border-radius: 15px;
+    transition: height .4s ease-out 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: #990033;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height .4s ease-out 2s;
+    box-shadow: 0px 6px 10px 0px rgba(255,255,255,0.5);
+}
+
+.back:hover{
+    transition: .4s ease-out;
+    background: #5ab63d;
+}
+
+.back img {
+    width: 25px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 15px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
