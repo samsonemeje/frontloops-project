@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #4a4a48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    width: 65%;
+    height: 85%;
+}
+
+.content{
+    width: 62%;
+    height: auto;
+    background: #ffffff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 2.8em;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 38%;
+    background: url("assets/img/side.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+h1 {
+    padding-top: 1.5em;
+    margin-bottom: 0.4em;
+    font-weight: 300;
+}
+
+.text {
+    font-size: 0.7em;
+    color: #857671;
+    padding-bottom: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #857671;
+}
+
+a:hover {
+    color: #2c2c2c;
+}
+
+.sign-up {
+    border: 1px solid #ebebeb;
+    margin-top: 1.5em;
+    padding: 10px;
+    display: flex;
+}
+
+.sign-up:hover {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         -3px 3px 15px 2px #ccc;
+}
+
+img {
+    padding-left: 12px;
+}
+
+h6 {
+    margin-left: 11em; 
+}
+
+hr {
+    position: absolute;
+    width: 100%;
+    margin-top: 5em;
+    border: 1px solid #ebebeb;
+    left: 0;
+}
+
+footer {
+    margin-top: 5.5em;
+    font-size: 0.7em;
+    padding-top: 4em;
+}
+
+.sign-up-email {
+    display: inline;
+    font-weight: 500;
+}
+
+.click {
+    font-weight: 600;
+    float: right;
+    font-size: 1em;
+}

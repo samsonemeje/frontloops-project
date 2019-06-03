@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background: #ffe6eb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    height: 500px;
+    background: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 10px 40px -1px #63686e;
+}
+
+.box-one {
+    background: url("assets/img/background.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding: 20px;
+    float: left;
+}
+
+.box-two {
+    height: 400px;
+    width: 550px;
+    float: left;
+}
+
+.topnav {
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.topnav a {
+    color: #7c7575;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.topnav a:hover {
+    color: #000000;
+}
+
+.visit {
+    margin-top: 100px;
+    font-family: Playfair;
+    width: 450px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3em;
+    display: block;
+}
+
+hr {
+    width: 120px;
+    display: inline-block;
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.by {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.container {
+    height: 220px;
+    width: 500px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.vid {
+    background: url("assets/img/preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    
+}
+
+.play {
+    border-radius: 50%;
+    background: #ffffff;
+    padding: 8px;
+}
+
+.write-up {
+    height: 200px;
+    width: 300px;
+    line-height: 2em;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.view {
+    font-weight: 600;
+    font-size: 12PX;
+    display: flex;
+    color: #7c7575;
+    text-decoration: none;
+}
+
+a.view:hover {
+    color: #000000;
+}
+
+.forward {
+    margin-left: 5px;
+    margin-right: 5PX;
+}
+

@@ -1,0 +1,145 @@
+@import url("button.css");
+@import url("search input.css");
+@import url("nav.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+} 
+
+.step-one {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.text {
+    margin-left: 12%;
+    color: #63686e;
+    font-size: 14px;
+    line-height: 1.7em;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 70px 0 40px 0;
+    color: black;
+}
+
+.text h3 {
+    margin-bottom: 30px;
+}
+
+.border {
+    padding-left: 15px;
+    border-left: 2px solid #e3e3e3;
+    margin-bottom: 35px;
+    color: #63686e;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+.watch-pic {
+    background: url("../assets/img/watches.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22%;
+    height: 500px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.step-2 {
+    display: flex;
+    padding-top: 50px;
+    height: 300px;
+}
+
+.dot {
+    height: 3px;
+    width: 3px;
+    margin-right: 10px;
+    background-color: #63686e;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.learn-more {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.learn-more:hover > hr {
+    width: 70px;
+}
+
+hr {
+    width: 50px;
+    height: 1px;
+    border: 2px solid tomato;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.step-3 {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+.nike-sport {
+    width: 70%;
+    margin-left: 12%;
+    height: 600px;
+    background: white;
+}
+
+.preview {
+    width: 30%;
+    height: 85%;
+    margin-right: 12%;
+}
+
+.step-4 {
+    height: 800px;
+    width: 100%;
+    background: url("../assets/img/runners.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.take-control {
+    color: #ffffff;
+    width: 35%;
+    height: 400px;
+    margin-top: 250px;
+    margin-right: 12%;
+    overflow: hidden;
+}
+
+.take-control h2 {
+    color: #ffffff;
+    font-weight: 800;
+}

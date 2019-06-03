@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 2 - Challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+
+  <!--
+    Ah, it smells like a new challenge!
+
+    This time we build a concept of some job search website.
+    It's more about small details this time and if you haven't yet tried splitting
+    your css into separate component files - that's the perfect time to try.
+    (Use @import in css to achieve that)
+
+    The other gimmick we introduce here is about using font icons instead of inserting images into our code.
+    The easiest out-of-the-box method is to use Google Material Icons,
+    so read about the implementation before you start:
+    https://material.io/icons/
+
+    And good luck!
+  -->
+<div class="nav">
+ <div class="container">
+    <div class="linkedin-logo common">
+      <img src="/img/logo.png" alt="LinkedIn-logo">
+    </div>
+    <div  class="search-div common">
+      <input type="text" name="search" placeholder="Search"><a href="#"><i class="material-icons">search</i></a>
+    </div>
+    <div  class="list common">
+      <a href="#">Home</a>
+      <a href="#">Profile</a>
+      <a href="#">Connections</a>
+      <a href="#">Interest</a>
+      <a href="#">Try Premium</a>
+    </div>
+    <div class="icons common">
+      <a href="#"><i class="material-icons">comment</i></a>
+      <a href="#"><i class="material-icons">notifications</i></a>
+      <a href="#"><i class="material-icons">person_add</i></a>
+    </div>
+    <img class="avatar" src="/img/avatar.jpg" alt="">
+ </div>
+ <div class="second-level-nav">
+  <a href="#">Posts</a>
+  <a href="#">Background</a>
+  <a href="#">Recommendations</a>
+  <a href="#">Following</a>
+ </div>
+</div>
+<div class="content">
+  <div class="box-1">
+    <div class="bio">
+      <img src="/img/bill-gates-avatar.png" alt="picture of bill gates smiling">
+      <h3>Bill Gates</h3>
+      <span>Microsoft Founder</span>
+      <span>Greater Seattle Area</span>
+      <div class="wrap">
+        <a href="#" class="follow both">Follow</a>
+        <a href="#" class="connect both">Connect<i class="material-icons dropdown">keyboard_arrow_down</i></a>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="share"><h5>200</h5><span>connecti...</span></div>
+      <div class=" share right-connect"><h5>1.9M</h5><span>followers</span></div>
+    </div>
+    <div class="links">
+      <div class="special">
+        <i class="material-icons">insert_link</i>
+        <a href="#">linkedin.com/in/billgat..</a>
+      </div>
+      <div class="special">
+        <i class="material-icons">language</i>
+        <a href="#">billgates.com</a>
+      </div>
+    </div>
+    <div class="export">
+        <i class="material-icons">arrow_upward</i>
+      <a href="#">Export page as PDF</a>
+    </div>
+  </div>
+  <div class="box-2"></div>
+  <div class="box-3"></div>
+</div>
+</body>
+</html>

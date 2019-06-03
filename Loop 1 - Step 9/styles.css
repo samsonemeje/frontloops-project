@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffd96a;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.my-wallets {
+    width: 20%;
+    height: 450px;
+    margin-top: 35px;
+    background: #eae7e7;
+    padding: 40px  30px  10px 30px;
+    overflow: hidden;
+}
+.my-wallets:hover {
+    overflow-y: overlay;
+}
+
+.my-wallets::-webkit-scrollbar {
+    width: 8px;
+    padding: 0;
+    background: #5c636e;
+}
+
+.current-balance {
+    width: 40%;
+    height: 450px;
+    margin-top: 35px;
+    background: #ffffff;
+    padding: 40px  40px  10px 40px;
+    overflow: hidden;
+}
+
+.current-balance:hover {
+    overflow-y: overlay;
+}
+
+.current-balance::-webkit-scrollbar {
+    width: 8px;
+    padding: 0;
+    background: #5c636e;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #5c636e;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#special-plus {
+    width: 24px;
+    height: 24px;
+}
+
+.cards {
+    height: 120px;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 25px 0;
+    font-weight: 500;
+    display: grid;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: #5c636e;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.cards:hover {
+    border: 2px solid cornflowerblue;
+}
+
+.heading2 {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #5c636e;
+    font-weight: 400;
+    border-bottom: 2px solid #eae7e7;
+    height: 80px;
+}
+
+.figure {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.transactions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 30px 0;
+}
+
+.product{
+    color: black;
+    font-size: 18px;
+    line-height: 1.4em;
+    width: 250px;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.price {
+    font-weight: 600;
+    color: cornflowerblue;
+}
+
+.green {
+    color: #729d39;
+    font-weight: 600;
+}
+
+.image-resize {
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid #bcbab8;
+}

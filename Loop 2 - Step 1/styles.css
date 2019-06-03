@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background: #DE8A89;
+}
+
+.container {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 80px 0 20px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ECB9B8;
+    font-weight: 700;
+    padding: 0 40px 0 0;
+}
+
+#active {
+    color: #fff;
+}
+
+.menu a:hover {
+    color: #ffefe0;
+}
+
+.text {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 70%;
+}
+
+.item {
+    background: #3E3C3D;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    color: #fff;
+    position: relative;
+    box-shadow: 0 0 35px 0 #3E3C3D;
+}
+
+.item2 {
+    background: #353334;
+}
+
+.item3 {
+    background: #201E1F;
+}
+
+.item h3 {
+    margin-left: 20%;
+    margin-top: 35%;
+    margin-bottom: 15px;
+    color: #CE8B85;
+}
+
+.item span {
+    margin-left: 20%;
+    font-size: 1.6em;
+}
+
+button {
+    position: absolute;
+    left: 10%;
+    bottom: -20px;
+    width: 80%;
+    background: #131313;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 15px;
+    outline: none;
+    border-radius: 3px;
+}
+
+button:active {
+    bottom: -30px;
+    border: none;
+}
+
+.carousel-left {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background: #ECB9B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-left:hover, .carousel-right:hover {
+    background: #fff;
+}
+
+.carousel-right {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background: #ECB9B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-left {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #855352;
+    transform: rotate(180deg);
+}
+
+.arrow-right {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #855352;
+}

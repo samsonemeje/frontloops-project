@@ -24,16 +24,17 @@ body, html {
 
 .container {
     width: 500px;
-    height: 400px;
-    text-align: center; 
+    height: 500px;
 }
 
 h1 {
     color: #5ab63d;
+    text-align: center;
+    padding: 12px 0;
 }
 
-p {
-    margin: 20px 0;
+header {
+    margin: 0 0 50px 0;
 }
 
 .ref a {
@@ -48,7 +49,7 @@ p {
     transition: .4s ease-out;
 }
 
-section {
+.ref {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +62,7 @@ section {
     box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
     width: 150px;
     height: 50px;
-    margin: 12px 0;
+    margin-bottom: 25px;
     border-radius: 15px;
     transition: height .4s ease-out 2s;
     display: flex;
@@ -95,13 +96,24 @@ section {
     transform: rotate(180deg);
 }
 
-ul li {
-    list-style-type: none;
-    text-align: center;
-    margin: 15px 0;
+.groupone {
+    margin: 25px 0 15px 40px;
+    color: #fff;
 }
 
-ul li a {
+.groupone div {
+    margin-bottom: 20px;
+}
+
+.groupone a {
     text-decoration: none;
     color: #fff;
+}
+
+.groupone a:hover {
+    color: #5ab63d;
+}
+
+b {
+    margin-right: 25px;
 }

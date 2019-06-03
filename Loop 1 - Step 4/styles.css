@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #7e97a6;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+.box {
+    width: 30rem;
+    margin: auto;
+    margin-top: 8%;
+    background: #4a9ff5;
+    padding: 2rem;
+}
+
+.circle {
+    background: #ffffff;
+    border-radius: 50%;
+    margin-right: 1.5em;
+    height: 8px;
+    width: 8px;
+    display: inline-flex;
+}
+
+.items {
+    display: inline;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+svg {
+    float: right;
+    margin-top: -5px;
+    fill: #dbedf3;
+}
+
+svg:hover {
+    fill: white;
+}
+
+section {
+    width: 30rem;
+    height: 28rem;
+    background: #fff;
+    margin: auto;
+    padding: 2rem;
+}
+
+h4 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #cacaca;
+    color: #cacaca;
+    line-height: 0.2em;
+    
+ } 
+
+ h4 span { 
+    background:#fff; 
+    padding:0 10px; 
+    font-weight: 500;
+}
+
+.one {
+    padding: 12px;
+    background: #dbedf3;
+    margin-top: 3px;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+}
+
+.two {
+    padding: 12px;
+    background: #bcbab8;
+    margin-top: 3px;
+    display: inline-block;
+    margin-left: 30%;
+    font-size: 14px;
+    position: relative;
+}
+
+.container {
+    margin-top: 17px;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 14px;
+    color: #cacaca; 
+    display: block;
+}
+
+.two_time {
+    font-weight: 500;
+    font-size: 14px;
+    color: #cacaca; 
+    float: right;
+}
+
+.blocked {
+    background: #ffcdcd;
+    padding: 12px;
+    display: inline-block;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+hr {
+    height:0; 
+    border:0; 
+    border-top:1px solid #cacaca; 
+  }
+
+  input {
+      border: 0;
+      padding: 15px 0;
+      width: 85%;
+      font-weight: 600;
+  }
+
+  input:focus { 
+    outline: none;
+}
+
+
+  button {
+      background: none;
+      color: #4a9ff5;
+      border: none;
+      font-weight: 800;
+  }
+
+  .border_radius {
+      border-radius: 5px;
+  }
+  
+  .one:before {
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -5px;
+    content: "";
+    border-top: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+    border-right: solid 8px #dbedf3;
+    transform: rotate(-90deg);
+  }
+ 
+  .two:after {
+    display: block;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    content: "";
+    border-top: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+    border-right: solid 8px #bcbab8;
+    transform: rotate(-90deg);
+  }

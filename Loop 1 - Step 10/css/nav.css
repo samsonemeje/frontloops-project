@@ -1,0 +1,48 @@
+.nav-div {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    overflow: hidden;
+    width: 76%;
+    margin-left: 12%;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+}
+
+.topnav {
+    display: flex;
+}
+
+/* Navbar links */
+.topnav a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #63686e;
+}
+  
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+    border: none;
+    color: black;
+}
+
+.items {
+    font-size: 16px;
+    color: black;
+}
+
+.items:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 16px;
+    color: black;
+}

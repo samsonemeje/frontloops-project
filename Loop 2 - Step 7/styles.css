@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background: #C9F8FE;
+}
+
+.container {
+    display: flex;
+    margin: 50px auto;
+    width: 900px;
+    height: 550px;
+    background: #fff;
+}
+
+.item {
+    background: url("./img/background.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 550px;
+    color: #fff;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item h3 {
+    font-size: 28px;
+}
+
+.layer p {
+    padding: 12px 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    position: relative;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    background: #5B9D92;
+    opacity: 0.78;
+}
+
+.button img {
+    margin-right: 7px;
+}
+
+.button:hover {
+    background: aquamarine;
+    opacity: 1;
+}
+
+.media-kit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+}
+
+.item2 {
+    width: 500px;
+    height: 530px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    padding: 0 30px;
+    margin: 10px 0 20px 0;
+}
+
+.box p {
+    width: 300px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3D3F41;
+}
+
+.resize img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date div:nth-child(2) span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pick {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+.grey-out {
+    color: #CBCBCB;
+}
+.grey-out:hover {
+    color: #000;
+}
+
+.font-resize {
+    font-size: 18px;
+}
