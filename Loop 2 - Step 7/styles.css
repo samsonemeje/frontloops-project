@@ -18,7 +18,7 @@ body {
 }
 
 .item {
-    background: url("./img/background.jpg") center;
+    background: url("assets/img/background.jpg") center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 400px;

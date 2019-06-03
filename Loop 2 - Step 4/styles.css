@@ -54,7 +54,7 @@ body {
 }
 
 .food {
-    background: url(./img/food.jpg);
+    background: url(assets/img/food.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;

@@ -29,7 +29,7 @@ body {
 }
 
 .push-out {
-    background: url("/img/map.png");
+    background: url("assets/img/map.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 480px;
@@ -167,7 +167,7 @@ body {
     width: 430px;
     height: 80px;
     margin-top: 20px;
-    background: url("/img/streetview.jpg");
+    background: url("assets/img/streetview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

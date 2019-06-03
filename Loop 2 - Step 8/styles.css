@@ -68,7 +68,7 @@ body {
     top: 70px;
     left: 50%;
     transform: translate(-50%, 0);
-    background-image: url("./img/card.png");
+    background-image: url("assets/img/card.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -131,19 +131,19 @@ h3{
 }
 
 .lock {
-    background-image: url("./img/lock.svg");
+    background-image: url("assets/img/lock.svg");
 }
 
 .plane {
-    background-image: url("./img/plane.svg");
+    background-image: url("assets/img/plane.svg");
 }
 
 .laptop {
-    background-image: url("./img/laptop.svg");
+    background-image: url("assets/img/laptop.svg");
 }
 
 .money {
-    background-image: url("./img/atm.svg");
+    background-image: url("assets/img/atm.svg");
 }
 
 .right {
