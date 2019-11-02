@@ -6,61 +6,61 @@
 
 body, html {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(117, 19, 93, 0.73)), url("images/jared-erondu-1637728-unsplash.jpg");
+    background-image: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.52), 
+    rgba(117, 19, 93, 0.73)), 
+    url("images/jared-erondu-1637728-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    background-color: beige;
+    height: 100%;
 }
 
 .container {
-    width: 500px;
-    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-h1 {
+.content-header {
+    margin: 50px 0;
+}
+
+  .content-header > h1 {
+    font-size: 1.2em;
     color: #5ab63d;
     text-align: center;
-    padding: 12px 0;
-}
+    word-spacing: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    padding-bottom: 15px;
+  }
 
-header {
-    margin: 0 0 50px 0;
-    /* text-align: center; */
-}
+  .content-header > p {
+    text-align: justify;
+    padding: 0 10%;
+    line-height: 1.6;
+    color: #fff;
+  }
 
-.ref a {
+   .grouped-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-}
+   }
 
- .ref a :hover {
+  .grouped-links a:hover {
     background: #5ab63d;
     transition: .4s ease-out;
-}
+  }
 
-.ref {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-}
+  .grouped-links a:active {
+    background: #5ab63d;
+    transition: .4s ease-out;
+  }
 
 .group {
     background: #990033;
@@ -76,8 +76,8 @@ header {
 }
 
 .back {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -90,35 +90,19 @@ header {
     box-shadow: 0px 6px 10px 0px rgba(255,255,255,0.5);
 }
 
-.back:hover{
-    transition: .4s ease-out;
-    background: #5ab63d;
-}
-
-.back img {
-    width: 25px;
-    height: 20px;
-    transform: rotate(180deg);
-}
-
-.groupone {
-    /* margin: 25px 0 15px 40px; */
-    color: #fff;
-}
-
-.groupone div {
-    margin-bottom: 20px;
-}
-
-.groupone a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.groupone a:hover {
-    color: #5ab63d;
-}
-
-b {
-    margin-right: 25px;
-}
+@media only screen and (max-width: 767px) {
+    body {
+      background-image: url("images/Webp.net-compress-image.jpg");
+      background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.52), 
+      rgba(117, 19, 93, 0.73)), 
+      url("images/jared-erondu-1637728-unsplash.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-color: beige;
+    }
+  }
